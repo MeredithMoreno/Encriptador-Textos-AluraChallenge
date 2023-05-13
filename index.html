@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Encriptador texto</title>
+        <link rel="icon" href="imagenes/Imagen5.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">
+                <img src="imagenes/Logo.png" alt="Logo encriptador">
+            </h1>
+        </header>
+        <main>
+            <form class="bloque-izq">  
+                <textarea class="input-text" cols="20" rows="3" placeholder="Ingrese el texto aquí" onkeypress="return validacion(event)" required></textarea>
+
+                <fieldset class="indicacion">
+                    <img id="icon" src="imagenes/advertencia.png" alt="Icono de Exclamación">
+                    <p class="texto-indicacion"> Solo letras minúsculas. No se aceptan acentos, caracteres especiales y números.</p>
+                </fieldset>
+
+                <fieldset class="botones">
+                    <input class="btn-encriptar" type="button" type="submit" value="Encriptar" onclick="textEncriptado()">
+                    <input class="btn-desencriptar" type="button" type="submit" value="Desencriptar" onclick="textDesencriptado()">
+                </fieldset>                 
+            </form>
+
+            <div class="bloque-der">
+                <div class="instruccion">
+                    <img src="imagenes/codicon.png" alt="Ilustración de persona buscando con lupa">
+
+                    <div class="textos">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+
+                <form class="mensaje">
+                    <textarea class="output-text" cols="15" rows="8" readonly></textarea>
+                    <input class="btn-copiar" type="button" value="Copiar" onclick="copiar()">
+                </form> 
+            </div>
+        </main>
+        <footer class="foot">
+            <a href="http://www.linkedin.com/in/meredith-moreno-6588a823b"><img src="imagenes/linkedin-icon.png" alt="linkedin"></a>
+            <a href="https://youtube.com/@meredithmoreno5627"><img  id="i" src="imagenes/yt-icon.png" alt="youtube"></a>
+            <a href="https://github.com/MeredithMoreno"><img src="imagenes/github-icon.png" alt="github"></a>
+
+        </footer>
+        <script src="js/codificacion.js"></script>
+    </body>
+
+
+
+</html>
