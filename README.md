@@ -60,6 +60,8 @@ Para utilizar el encriptador de texto, sigue los siguientes pasos:
         Captura de mensaje secreto desencriptado Alura
 ![Captura de mensaje secreto desencriptado Alura](imagenes/mensajeoculto.png)
 
+Prueba el encriptador ingresando a: https://meredithmoreno.github.io/Encriptador-Textos-AluraChallenge/
+
 ## Herramientas
 
 #### ![HTML5](https://img.shields.io/badge/html5-%230077B5.svg?style=plastic&logo=appveyorlabel) ![CSS3](https://img.shields.io/badge/css3-%237777CC.svg?style=plastic&logo=appveyor) ![JavaScript](https://img.shields.io/badge/javascript-%23FF69B4.svg?style=plastic&logo=appveyor)
@@ -81,5 +83,7 @@ Este sitio web fue desarrollado por Meredith Moreno durante el proyecto Alura La
 
 
 ![Alura](https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_200x200.jpg)
+
+#challengeonecodificador5
 
 </span>
